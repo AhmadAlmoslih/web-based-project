@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet (3).css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+
+
+
+    <style>
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1,h4{
+    color: rgb(19, 18, 18);
+}
+
+p {
+    border:4px solid #000000;
+    color: #2d00f7;
+    padding: 20px;
+    margin: 20pxpx;
+    background-color: #edf102;
+}
+
+
+body{
+    background-image: url(flying.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    font-family: 'Arial', sans-serif;
+   
+    
+}
+
+    .rounded-profile {
+            border-radius: 100%;
+        }
+
+.card{
+    width: 50%;
+    height: 50%;
+}
+        
+
+
+
+    </style>
+<script>
+    function submitForm() {
+        
+        var reviewText = document.getElementById("reviewTextarea").value;
+
+        
+
+        
+        alert("Thank you! Your review has been submitted: " + reviewText);
+
+        
+        document.getElementById("reviewTextarea").value = "";
+
+        return false; 
+    }
+</script>
+
+
+
+</head>
+<body>
+    <div class="container">
+
+
+        
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index (2).html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="aboutus (1) (1).html">About Us</a>
+              <a class="nav-link" href="Book a Flight.html">Book a Flight</a>
+              <a class="nav-link" href="contact (1).html">Contact Us</a>
+              <a class="nav-link" href="reviews (1) (1).html">Reviews</a>
+              <a class="nav-link" href="form.html">Form</a>
+              <a class="nav-link" href="sitemap.html">Sitemap</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+ 
+
+    <div class="container-md"> 
+     <h1 style="color: #0015f9;">Matrix Airlines Reviews</h1>
+
+    <div class="alert alert-warning">Enter your review now and help us enhance your future journeys with Matrix Airlines.</div>
+
+
+
+
+<form  id="reviewForm" onsubmit=" submitForm()">
+
+<textarea name="" id="reviewTextarea" cols="35" rows="12" style="background-color: grey;"></textarea>
+<button type="submit" class="btn  btn-outline-warning">Submit Review</button>
+  
+</form>
+<br><br><br>
+<h1 style="color: #0015f9;" >Customers previous Reviews</h1>
+
+<div class="card mb-5">
+    <div class=" align-items-center">
+        <div class="col-5">
+            
+            <img src="first.avif" alt="Profile Picture 1" class="img-fluid rounded-profile">
+        </div>
+        <div class="col-15">
+            <div class="card-body">
+                
+                <p class="card-text"> Matrix Airlines exceeded my expectations with their impeccable service and attention to detail. From the friendly staff to the comfortable flights, every aspect of my journey was a delight.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-5">
+    <div class="align-items-center">
+        <div class="col-5">
+            
+            <img src="review1.jpeg" alt="Profile Picture 2" class="img-fluid rounded-profile">
+        </div>
+        <div class="col-20">
+            <div class="card-body">
+                <p class="card-text">I've traveled with Matrix Airlines multiple times, and each experience has been nothing short of exceptional. The modern fleet, punctual departures, and the overall commitment to passenger satisfaction make them my go-to airline.</p>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="card mb-5">
+    <div class="align-items-center">
+        <div class="col-5">
+            <img src="review2'.jpeg" alt="profile picture 3" class="img-fluid rounded-profile">
+        </div>
+<div class="col-20">
+    <div class="card-body">
+        <p class="card-text">As a frequent flyer, safety is my top priority. Matrix Airlines not only meets but surpasses industry standards in ensuring a secure and reliable travel experience. Their professionalism and dedication to passenger well-being make them a standout choice for air travel</p>
+    </div>
+
+</div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

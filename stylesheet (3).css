@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(46, 45, 67);
+    color:aliceblue;
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1, p
+{
+    color: rgb(116, 190, 255);
+}
+
+div{
+    color: rgb(255, 255, 255);
+}
+
+a
+		{
+    		color:rgb(229, 255, 0);
+    		text-decoration: none;
+		}
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
